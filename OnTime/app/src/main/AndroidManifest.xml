@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".RotaEventoActivity"></activity>
+        <activity android:name=".RestauranteActivity" />
+        <activity android:name=".HotelActivity" />
+        <activity android:name=".EventActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
