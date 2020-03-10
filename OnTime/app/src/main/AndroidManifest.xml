@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".RotaEventoActivity"></activity>
         <activity android:name=".RestauranteActivity" />
-        <activity android:name=".HotelActivity" />
+        <activity android:name=".RotaHotelActivity" />
         <activity android:name=".EventActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
