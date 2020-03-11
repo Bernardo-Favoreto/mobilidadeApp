@@ -13,6 +13,7 @@
         android:layout_marginStart="55dp"
         android:layout_marginTop="72dp"
         android:layout_marginEnd="54dp"
+        android:background="@drawable/button_background"
         android:onClick="redirectRotaHotal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/view4"
@@ -25,6 +26,7 @@
         android:layout_marginStart="54dp"
         android:layout_marginTop="72dp"
         android:layout_marginEnd="55dp"
+        android:background="@drawable/button_background"
         android:onClick="redirectRestaurantes"
         app:layout_constraintEnd_toStartOf="@+id/view5"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,10 +39,12 @@
         android:layout_marginStart="38dp"
         android:layout_marginTop="63dp"
         android:layout_marginEnd="38dp"
+        android:background="@drawable/button_background"
         android:onClick="redirectRotaEvento"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
+
 
     <View
         android:id="@+id/view2"
@@ -49,6 +53,7 @@
         android:layout_marginStart="38dp"
         android:layout_marginTop="52dp"
         android:layout_marginEnd="38dp"
+        android:background="@drawable/button_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -114,7 +119,8 @@
         app:layout_constraintEnd_toEndOf="@+id/view3"
         app:layout_constraintStart_toStartOf="@+id/view3"
         app:layout_constraintTop_toTopOf="@+id/view3"
-        app:srcCompat="?attr/actionModeCloseDrawable" />
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        android:onClick="redirectRotaEvento"/>
 
     <TextView
         android:id="@+id/textView5"
@@ -135,11 +141,14 @@
         android:layout_marginStart="45dp"
         android:layout_marginTop="46dp"
         android:layout_marginEnd="8dp"
+        android:onClick="redirectRestaurantes"
         android:contentDescription="@string/icone_restaurantes"
         app:layout_constraintEnd_toEndOf="@+id/view4"
         app:layout_constraintStart_toStartOf="@+id/view4"
         app:layout_constraintTop_toTopOf="@+id/view4"
-        app:srcCompat="@android:drawable/btn_dialog" />
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        />
+
 
     <TextView
         android:id="@+id/textView6"
@@ -160,10 +169,16 @@
         android:layout_marginStart="27dp"
         android:layout_marginTop="37dp"
         android:layout_marginEnd="29dp"
+        android:onClick="redirectRotaHotal"
         android:contentDescription="@string/icone_hotel"
         app:layout_constraintEnd_toEndOf="@+id/view5"
         app:layout_constraintStart_toStartOf="@+id/view5"
         app:layout_constraintTop_toTopOf="@+id/view5"
-        app:srcCompat="@android:drawable/ic_menu_today" />
+        app:srcCompat="?attr/actionModeCloseDrawable"/>
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
