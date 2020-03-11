@@ -13,4 +13,13 @@
     <string name="pagina_rota_evento">PAGINA ROTA EVENTO</string>
     <string name="pagina_restaurante">PAGINA RESTAURANTE</string>
     <string name="pagina_evento">PAGINA EVENTO</string>
+    <string name="seus_eventos">Seus Eventos</string>
+    <string name="deslocar">Chegou a hora de se deslocar para o local do evento.</string>
+    <string name="_30min">30min</string>
+    <string name="banho">Você já tomou banho e se arrumou.</string>
+    <string name="inicio_jornada">Inicie sua jornada para o evento em</string>
+    <string name="evento1">Evento 1 20h 12/03</string>
+    <string name="evento2">Evento 2 10h 13/03</string>
+    <string name="evento3">Evento 3 14h 14/03</string>
+    <string name="go">Vamos lá!</string>
 </resources>
