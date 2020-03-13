@@ -5,14 +5,8 @@
     <string name="horas_evento">Faltam X horas para o seu evento!</string>
     <string name="com_fome">Com fome?</string>
     <string name="hotel">Hotel?</string>
-    <string name="icone_hotel">icone_hotel</string>
-    <string name="icone_restaurantes">icone_restaurantes</string>
-    <string name="icone_seta">icone_seta</string>
-    <string name="icone_transporte">icone_transporte</string>
     <string name="pagina_hotel">PÁGINA HOTEL</string>
-    <string name="pagina_rota_evento">PAGINA ROTA EVENTO</string>
     <string name="pagina_restaurante">PAGINA RESTAURANTE</string>
-    <string name="pagina_evento">PAGINA EVENTO</string>
     <string name="seus_eventos">Seus Eventos</string>
     <string name="deslocar">Chegou a hora de se deslocar para o local do evento.</string>
     <string name="_30min">30min</string>
