@@ -53,8 +53,8 @@ class RotaEventoActivity : FragmentActivity(), OnMapReadyCallback {
         //-- prepara uma coleção de informações das unidades da FIAP
         //-- A informação \n irá pular uma linha
         val unidades = arrayOf(
-            arrayOf("FIAP Campus Vila Olimpia","Rua Olimpíadas,186\nSão Paulo - SP\nCEP: 04551-000"),
-            arrayOf("FIAP Campus Paulista","Av. Paulista,1106\nSão Paulo - SP\nCEP: 01311-000"),
+            arrayOf("Expo Center Norte","Rua José Bernardo Pinto, 333\nSão Paulo - SP\nCEP: 02055-000"),
+            arrayOf("Transamerica Executive Perdizes","Rua Monte Alegre, 835\nSão Paulo - SP\nCEP: 05014-000"),
             arrayOf("FIAP Campus Vila Mariana","Av. Lins de Vasconcelos,1264\nSão Paulo - SP\nCEP: 01538-001")
         )
 
@@ -62,14 +62,15 @@ class RotaEventoActivity : FragmentActivity(), OnMapReadyCallback {
         //val fiap_campus_vila_mariana = LatLng(-23.5746685,-46.6232043)
 
         //--Adiciona a latitude e longitude da FIAP Campus Vila Olimpia
-        val fiap_campus_vila_olimpia = LatLng(-23.5955843,-46.6851937)
+        val expo_center = LatLng(-23.510642,-46.612199)
 
         //--Adiciona a latitude e longitude da FIAP Campus Paulista
-        val fiap_campus_paulista = LatLng(-23.5643721,-46.652857)
+        val hotel = LatLng(-23.537244,-46.669733)
 
         //-- Selecionando informações
-        val pontoA = fiap_campus_paulista;
-        val pontoB = fiap_campus_vila_olimpia;
+        // ir do hotel para o evento
+        val pontoA = hotel;
+        val pontoB = expo_center;
 
         val unidadePontoA = unidades[1]
         val unidadePontoB = unidades[0]
