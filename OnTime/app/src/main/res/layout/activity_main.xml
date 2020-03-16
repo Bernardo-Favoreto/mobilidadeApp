@@ -59,26 +59,32 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.09" />
 
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="113dp"
         android:layout_height="29dp"
-        android:layout_marginStart="236dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="172dp"
+        android:fontFamily="@font/comfortaa_bold"
         android:onClick="redirectEvents"
         android:text="@string/ver_eventos"
+        android:textColor="#000"
+        android:textSize="10sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="218dp"
         android:layout_height="22dp"
+        android:fontFamily="@font/comfortaa_bold"
         android:text="@string/vamos_para_o_evento"
+        android:textColor="#000"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.601"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.427" />
@@ -87,25 +93,31 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa_bold"
         android:text="@string/com_fome"
+        android:textColor="#000"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintHorizontal_bias="0.209"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71" />
+        app:layout_constraintVertical_bias="0.717" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa_bold"
         android:text="@string/hotel"
+        android:textColor="#000"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintHorizontal_bias="0.722"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.703" />
+        app:layout_constraintVertical_bias="0.716" />
 
     <androidx.constraintlayout.widget.Group
         android:id="@+id/group"
@@ -152,10 +164,10 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="44dp"
-        android:layout_height="67dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginEnd="44dp"
+        android:layout_width="31dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="48dp"
         android:rotation="180"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -166,6 +178,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="horas para seu evento!"
+        android:fontFamily="@font/comfortaa_bold"
+        android:textSize="15sp"
+        android:textColor="#000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.769"
@@ -177,10 +192,13 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa_bold"
         android:text="Faltam "
+        android:textColor="#000"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintHorizontal_bias="0.164"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.112" />
@@ -191,7 +209,7 @@
         android:layout_height="98dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.37"
+        app:layout_constraintHorizontal_bias="0.346"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.066"

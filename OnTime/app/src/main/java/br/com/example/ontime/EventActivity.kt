@@ -15,4 +15,8 @@ class EventActivity : AppCompatActivity() {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
+    fun redirectRotaEvento(view: View) {
+        val intent = Intent(this, RotaEventoActivity::class.java)
+        startActivity(intent)
+    }
 }

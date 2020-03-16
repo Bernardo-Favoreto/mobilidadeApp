@@ -58,6 +58,7 @@
         android:layout_marginBottom="25dp"
         android:text="@string/evento3"
         android:textColor="#000"
+        android:fontFamily="@font/comfortaa_bold"
         app:layout_constraintBottom_toBottomOf="@+id/view6"
         app:layout_constraintStart_toStartOf="@+id/view6" />
 
@@ -70,6 +71,7 @@
         android:layout_marginBottom="20dp"
         android:text="@string/evento2"
         android:textColor="#000"
+        android:fontFamily="@font/comfortaa_bold"
         app:layout_constraintBottom_toTopOf="@+id/textView12"
         app:layout_constraintStart_toStartOf="@+id/view6"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
@@ -81,6 +83,7 @@
         android:layout_marginStart="46dp"
         android:layout_marginEnd="46dp"
         android:background="@drawable/oval_background"
+        android:onClick="redirectRotaEvento"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -90,14 +93,15 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="188dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="33dp"
-        android:textColor="#000"
+        android:layout_width="246dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/comfortaa_bold"
         android:text="@string/seus_eventos"
-        android:textSize="30sp"
         android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30sp"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -165,6 +169,7 @@
         android:layout_marginTop="25dp"
         android:text="@string/evento1"
         android:textColor="#000"
+        android:fontFamily="@font/comfortaa_bold"
         app:layout_constraintStart_toStartOf="@+id/view6"
         app:layout_constraintTop_toTopOf="@+id/view6" />
 
@@ -175,6 +180,7 @@
         android:layout_marginStart="36dp"
         android:text="@string/inicio_jornada"
         android:textColor="#000"
+        android:fontFamily="@font/comfortaa_bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -187,6 +193,7 @@
         android:layout_marginStart="36dp"
         android:text="@string/banho"
         android:textColor="#000"
+        android:fontFamily="@font/comfortaa_bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -198,6 +205,7 @@
         android:layout_height="69dp"
         android:layout_marginStart="36dp"
         android:text="@string/deslocar"
+        android:fontFamily="@font/comfortaa_bold"
         android:textColor="#000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -211,6 +219,7 @@
         android:layout_marginStart="16dp"
         android:text="@string/_30min"
         android:textColor="#000"
+        android:fontFamily="@font/comfortaa_bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/view7"
         app:layout_constraintTop_toTopOf="parent"
@@ -223,6 +232,7 @@
         android:layout_marginStart="16dp"
         android:text="15min"
         android:textColor="#000"
+        android:fontFamily="@font/comfortaa_bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/view9"
         app:layout_constraintTop_toTopOf="parent"
@@ -236,7 +246,9 @@
         android:text="@string/go"
         android:textAlignment="center"
         android:textColor="#000"
+        android:fontFamily="@font/comfortaa_bold"
         android:textSize="30sp"
+        android:onClick="redirectRotaEvento"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toTopOf="@+id/view" />
