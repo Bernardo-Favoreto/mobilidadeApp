@@ -2,7 +2,7 @@
     <string name="app_name">OnTime</string>
     <string name="vamos_para_o_evento">Vamos para o evento?</string>
     <string name="ver_eventos">Ver eventos</string>
-    <string name="horas_evento">Faltam X horas para o seu evento!</string>
+    <string name="horas_evento"> horas para o seu evento!</string>
     <string name="com_fome">Com fome?</string>
     <string name="hotel">Hotel?</string>
     <string name="pagina_hotel">PÁGINA HOTEL</string>
