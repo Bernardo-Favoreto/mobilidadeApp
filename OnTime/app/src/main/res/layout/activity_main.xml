@@ -64,13 +64,13 @@
         android:id="@+id/textView3"
         android:layout_width="113dp"
         android:layout_height="29dp"
-        android:layout_marginStart="260dp"
+        android:layout_marginStart="244dp"
         android:layout_marginTop="172dp"
         android:fontFamily="@font/comfortaa_bold"
         android:onClick="redirectEvents"
         android:text="@string/ver_eventos"
         android:textColor="#000"
-        android:textSize="10sp"
+        android:textSize="13sp  "
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -99,10 +99,10 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintHorizontal_bias="0.206"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.717" />
+        app:layout_constraintVertical_bias="0.7" />
 
     <TextView
         android:id="@+id/textView6"
@@ -114,10 +114,10 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintHorizontal_bias="0.73"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.716" />
+        app:layout_constraintVertical_bias="0.703" />
 
     <androidx.constraintlayout.widget.Group
         android:id="@+id/group"
